@@ -1,0 +1,102 @@
+body{
+    padding: 0%;
+    margin: 0% auto;
+}
+.usersview--cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgba(8, 8, 8, 0.363);
+    cursor: pointer;
+}
+.card--avatar{
+    width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgba(8, 8, 8, 0.637);
+}
+
+.card--firstname{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: medium;
+}
+.card--email{
+    padding-bottom: 8px;
+    font-size: small;
+}
+.usersview--header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,148,255,255);
+    align-items: center;
+    color: white;
+}
+.usersview--subHeader{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.UserInfoView--header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,148,255,255);
+    color: white;
+    padding-left: 15px;
+}
+.UserInfoView{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 40%;
+    align-items: center;
+}
+.UserInfoView--SelectedUser{
+    display: flex;
+    flex-direction: row;
+    background-color:antiquewhite;
+    width: 400px;
+    height: 130px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.UserInfoView--fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.UserInfoView--data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.UserInfoView--img{
+    width: 200px;
+}
+.UserInfoView--backButton{
+    cursor: pointer;
+}
